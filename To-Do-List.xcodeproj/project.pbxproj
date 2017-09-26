@@ -12,6 +12,7 @@
 		5F391ABB1F79E29100267E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F391AB91F79E29100267E30 /* Main.storyboard */; };
 		5F391ABD1F79E29100267E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F391ABC1F79E29100267E30 /* Assets.xcassets */; };
 		5F391AC01F79E29100267E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F391ABE1F79E29100267E30 /* LaunchScreen.storyboard */; };
+		5F391AC81F79E82900267E30 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F391AC71F79E82900267E30 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F391ABC1F79E29100267E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F391ABF1F79E29100267E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F391AC11F79E29100267E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F391AC71F79E82900267E30 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5F391AB51F79E29100267E30 /* AppDelegate.swift */,
 				5F391AB71F79E29100267E30 /* ViewController.swift */,
 				5F391AB91F79E29100267E30 /* Main.storyboard */,
+				5F391AC71F79E82900267E30 /* DetailViewController.swift */,
 				5F391ABC1F79E29100267E30 /* Assets.xcassets */,
 				5F391ABE1F79E29100267E30 /* LaunchScreen.storyboard */,
 				5F391AC11F79E29100267E30 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F391AC81F79E82900267E30 /* DetailViewController.swift in Sources */,
 				5F391AB81F79E29100267E30 /* ViewController.swift in Sources */,
 				5F391AB61F79E29100267E30 /* AppDelegate.swift in Sources */,
 			);
